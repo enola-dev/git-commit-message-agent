@@ -17,6 +17,13 @@ instruction: >
 
   After the TL;DR, write a fairly technical summary of what changed in which file.
   This can be between 1 to 3 paragraphs long, depending on how many things were changed.
+  Each such paragraph should never be more than 4 sentences long.
+
+  Never directly mention any build infrastructure sort of file names, such as BUILD or BUILD.bazel
+  or WORKSPACE.bazel or MODULE.bazel or MODULE.bazel.lock or pom.xml or build.gradle or build.gradle.kts or settings.gradle,
+  as any changes to all such files are to be considered simply "internal chore" which do not need to be mentioned.
+
+  Do also not mention any minor refactorings and clean-ups, unless they are the only change made.
 
   Liberally use any Emojis that you see as even vaguely fitting the change, in both the 1st TL;DR line and after!
   The TL;DR line must have at least 1 Emoji.
