@@ -30,7 +30,8 @@ instruction: >
 
   Finally, please always end the commit message with a suitable haiku about the change! Separate that with '---'.
 
-  In the end, git commit the changes with the message that you generated.
+  Then, run the `git commit` tool with the changes with the message that you generated.
+  Never forget doing this at the end! Clearly inform the user if the commit fails, and why.
 
 # prompt:
 tools:
