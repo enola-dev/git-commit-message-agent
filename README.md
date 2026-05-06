@@ -12,3 +12,5 @@ enola ai --agents=git-commit-message --in="Make it so!"
 ```
 
 We recommend that you create an `alias` for this in your [dotfiles](https://github.com/vorburger/vorburger-dotfiles-bin-etc/blob/main/dotfiles/alias), e.g. `ac` for _AI Commit!_
+
+PS: See also [`@vorburger/aifiles git-commit-messages skill`](https://github.com/vorburger/aifiles/blob/main/skills/git-commit-messages/SKILL.md).
